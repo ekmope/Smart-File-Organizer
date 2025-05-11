@@ -1,15 +1,22 @@
 # Smart File Organizer 🗂️
 
-自动整理杂乱文件夹的智能工具
+## 新增功能 ✨
+- 🎯 智能冲突解决（序号替代时间戳）
+- 📁 独立整理目录保障安全
+- 🔍 递归处理嵌套文件夹
+- 📝 详尽的日志记录系统
+- 🚦 干跑模式预览整理效果
 
-## 功能特性
-- 📁 自动分类常见文件类型（图片/文档/压缩包/代码）
-- ⏱️ 自动添加时间戳防止文件覆盖
-- 🛡️ 错误处理机制保障安全
-- 🖥️ 支持Windows/macOS/Linux
+## 使用说明
+```bash
+# 基本用法
+python organizer.py [路径]
 
-## 快速开始
-1. 确保安装Python 3.6+
-2. 下载本项目：
-   ```bash
-   git clone https://github.com/<你的用户名>/Smart-File-Organizer.git
+# 常用选项
+-r, --recursive   递归处理子目录
+-d, --dry-run     干跑模式（不实际移动文件）
+-l, --log         指定日志文件路径
+
+# 示例
+python organizer.py ~/Downloads -r
+python organizer.py ./test_files -d --log output.log
