@@ -7,6 +7,13 @@
 - 📝 详尽的日志记录系统
 - 🚦 干跑模式预览整理效果
 
+- 🎯 Intelligent conflict resolution (serial number instead of timestamp)
+- 📁 Independently organizing directories to ensure security
+- 🔍 Recursive processing of nested folders
+- 📝 Detailed logging system
+- 🚦 Preview and organize the effect of dry running mode
+
+
 ## 使用说明
 ```bash
 # 基本用法
